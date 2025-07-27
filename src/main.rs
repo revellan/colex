@@ -1,3 +1,4 @@
+use colex::start;
 fn main() {
-    println!("Hello, world!");
+    start();
 }
