@@ -23,5 +23,6 @@ pub fn convert(s: &mut String) {
             }
         }
         *s = str;
+        s.push_str(&(first_char.to_string() + "ay"));
     }
 }

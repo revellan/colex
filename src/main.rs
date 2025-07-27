@@ -3,7 +3,12 @@ fn main() {
     _test_convert();
 }
 fn _test_convert() {
-    let mut string = String::from("apple");
+    let mut string = String::new();
+    print!("Enter String: ");
+    use std::{io, io::Write};
+    io::stdout().flush().expect("Error flushing stdout");
+    io::stdin().read_line(&mut string).expect("Failed to read line");
+    string.pop();
     colex::convert::convert(&mut string);
     println!("{}", string);
 }
