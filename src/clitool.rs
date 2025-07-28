@@ -112,7 +112,7 @@ impl Company {
                             let input: String = get_in(" ");
                             let input = input.trim();
                             if false_vals.contains(&&*input) {
-                                break;
+                                continue;
                             }
                         }
                     }
