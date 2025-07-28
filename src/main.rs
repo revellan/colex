@@ -22,7 +22,6 @@ fn _test_median() {
     }
 }
 fn _test_hashmap() {
-    let sally = clitool::Employee::new("Sally");
-    let s: String = String::from("Sales");
-    sally.add(&s);
+    let mut cmy = clitool::Company::new();
+    cmy.cli();
 }
