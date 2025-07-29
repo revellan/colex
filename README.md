@@ -5,11 +5,8 @@ The Programs you have to program at the end of Chapter 8 of the "The Rust Progra
 ## Installation:
 ```sh
 #Clone the git repo
-git clone https://github.com/revellan/colex
-cd colex
-
-#build from source
-make
+sudo git clone https://github.com/revellan/colex /opt/colex
+cd /opt/colex
 
 #install to /usr/local/bin
 sudo make install
